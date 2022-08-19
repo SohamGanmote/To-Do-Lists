@@ -2,7 +2,7 @@ const toDo = document.querySelector("#Todo");
 const type = document.querySelector("#task");
 const names = document.querySelector(".NOC");
 const delet = document.querySelector("#clear");
-const theme = document.querySelector("#btn-to-switch")
+const theme = document.querySelector(".btn-to-switch")
 
 const bdy = document.querySelector("body");
 const ctn = document.querySelector(".contener");
@@ -10,6 +10,7 @@ const ctn = document.querySelector(".contener");
 theme.addEventListener("click", function() {
     bdy.classList.toggle("dark-body")
     ctn.classList.toggle("dark-contener")
+    theme.classList.toggle("dark-btn");
     const todo_p = document.querySelectorAll("p");
     for (let p of todo_p) {
         if (bdy.classList.contains("dark-body") == true) {

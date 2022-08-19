@@ -44,7 +44,7 @@ body {
 }
 
 .contener button,
-#btn-to-switch {
+.btn-to-switch {
     height: 40px;
     border-radius: 3px;
     padding: 5px;
@@ -54,6 +54,7 @@ body {
     border: none;
     padding: 5px 10px;
     margin: 0px 5px;
+    transition: 0.3s;
 }
 
 .NOC {
@@ -94,6 +95,18 @@ body {
     color: #808080AA;
 }
 
+.btn-to-switch {
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
+    background-color: white;
+    color: #A66CFF;
+    font-weight: 400;
+}
+
 
 /* Dark Theme */
 
@@ -111,11 +124,7 @@ body {
     color: white;
 }
 
-#btn-to-switch {
-    position: absolute;
-    top: 5%;
-    left: 92%;
-    transform: translate(-50%, -50%);
-    -webkit-box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
-    box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
+.dark-btn {
+    background-color: #A66CFF;
+    color: white;
 }
