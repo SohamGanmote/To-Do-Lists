@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #474bff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(38deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(38deg, #474bff 0%, #bc48ff 100%);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.contener {
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 0px;
+    -webkit-box-shadow: 0px 6px 23px 0px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 6px 23px 0px rgba(0, 0, 0, 0.21);
+    background-color: white;
+    transition: 0.5s;
+}
+
+.contener input {
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 0.5px solid gray;
+    margin: 0px 5px;
+}
+
+.contener button,
+#btn-to-switch {
+    height: 40px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #A66CFF;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+
+.NOC {
+    padding: 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.NOC button {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkP {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    user-select: none;
+}
+
+.darkP span {
+    margin: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #808080AA;
+}
+
+
+/* Dark Theme */
+
+.dark-body {
+    background: #51557e;
+    background: -webkit-linear-gradient(38deg, #51557e 0%, #1b2430 100%);
+    background: linear-gradient(38deg, #51557e 0%, #1b2430 100%);
+}
+
+.dark-contener {
+    background-color: #51557E;
+}
+
+.dark-darkP {
+    color: white;
+}
+
+#btn-to-switch {
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 1px 9px 16px 0px rgba(0, 0, 0, 0.37);
+}
